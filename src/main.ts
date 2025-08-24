@@ -14,6 +14,5 @@ async function bootstrap() {
   );
 
   await app.listen(3000);
-  console.log('API corriendo en http://localhost:3000');
 }
 bootstrap();
